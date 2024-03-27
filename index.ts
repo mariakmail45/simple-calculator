@@ -3,8 +3,8 @@
 import inquirer from "inquirer";
 
 const answer = await inquirer.prompt([
-  { massage: "Enter first number", type: "number", name: "firstNumber" },
-  { massage: "Enter second number", type: "number", name: "secondNumber" },
+  { massage: "Enter your first number", type: "number", name: "firstNumber" },
+  { massage: "Enter your second number", type: "number", name: "secondNumber" },
   {
     massage: "select one of the operators to perform operation",
     type: "list",
@@ -29,6 +29,7 @@ else console.log(answer.firstNumber / answer.secondNumber);
     console.log("Please select valid operator");
 }
 
+console.log("THE END");
 
 
 
